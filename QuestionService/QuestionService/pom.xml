@@ -70,8 +70,33 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-gateway</artifactId>
 		</dependency>
-	
-		
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>6.3.1.Final</version> <!-- Use the latest version -->
+		</dependency>
+
+		<!-- Hibernate Second-Level Cache Integration -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-jcache</artifactId>
+			<version>6.3.1.Final</version>
+		</dependency>
+
+		<!-- Ehcache as the Cache Provider -->
+		<dependency>
+			<groupId>org.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+			<version>3.10.8</version>
+		</dependency>
+
+		<!-- JCache (JSR-107) API -->
+		<dependency>
+			<groupId>javax.cache</groupId>
+			<artifactId>cache-api</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
 
 	</dependencies>
 
